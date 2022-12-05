@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>민트 게임 뉴스 - News</title>
+        <link rel="icon" href="icon/maskable_icon_x128.png">
+
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/main.css" />
+        <script
+            src="https://kit.fontawesome.com/1715282e17.js"
+            crossorigin="anonymous"
+        ></script>
+
+        <!-- 제이쿼리 -->
+        <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+
+        <!-- isotope -->
+        <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+        <!-- slick -->
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+        />
+        <script
+            type="text/javascript"
+            src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+        ></script>
+
+        <script defer src="js/main.js"></script>
+    </head>
+    <body>
+        <div id="inner">
+            <div class="header">
+                <div class="header_bar">
+                    <a href="javascript:window.history.back();">
+                        <i
+                            class="fa-solid fa-arrow-right-to-bracket"
+                            style="transform: rotate(180deg)"
+                        ></i>
+                    </a>
+                    <h2 class="black">
+                        <a href="main.html">민트 게임 뉴스</a>
+                    </h2>
+                    <button class="menu_btn">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="news_list content">
+                <nav class="menu_bar">
+                    <ul>
+                        <li>
+                            <button class="on all"><p>ALL</p></button>
+                        </li>
+                        <li>
+                            <button class="video"><p>비디오</p></button>
+                        </li>
+                        <li>
+                            <button class="pc"><p>PC / 온라인</p></button>
+                        </li>
+                        <li>
+                            <button class="mobile"><p>모바일</p></button>
+                        </li>
+                        <li>
+                            <button class="special"><p>특집 / 칼럼</p></button>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="articles iso_box"></div>
+
+                <div class="article_box video">
+                    <h2 class="video">
+                        <button class="video">비디오</button>
+                    </h2>
+                    <div class="articles video_list video">
+                        <article class="all video video1 long">
+                            <a
+                                href="https://www.thisisgame.com/webzine/game/nboard/16/?n=162438"
+                                target="_blank"
+                            >
+                                <h5>P의 거짓</h5>
+                            </a>
+                        </article>
+                        <article class="all video video2">
+                            <a
+                                href="https://bbs.ruliweb.com/news/board/11/read/2082"
+                                target="_blank"
+                                ><h5>갓 오브 워 라그나로크</h5>
+                            </a>
+                        </article>
+                        <article class="all video video3">
+                            <a
+                                href="https://bbs.ruliweb.com/news/read/174403"
+                                target="_blank"
+                                ><h5>건그레이브 고어</h5></a
+                            >
+                        </article>
+                    </div>
+                </div>
+
+                <div class="article_box pc">
+                    <h2 class="pc">
+                        <button class="pc">PC / 온라인</button>
+                    </h2>
+                    <div class="articles pc_list pc">
+                        <article class="all pc pc1">
+                            <a
+                                href="https://www.inven.co.kr/webzine/news/?news=278938&hotnews=1&page=3"
+                                target="_blank"
+                                ><h5>블랙아웃 프로토콜</h5></a
+                            >
+                        </article>
+                        <article class="all pc pc2 long">
+                            <a
+                                href="https://www.inven.co.kr/webzine/news/?news=279076&hotnews=1&page=2"
+                                target="_blank"
+                                ><h5>로스트아크 X 더 위쳐</h5>
+                            </a>
+                        </article>
+                        <article class="all pc pc3">
+                            <a
+                                href="https://bbs.ruliweb.com/news/529/read/175113"
+                                target="_blank"
+                                ><h5>리그 오브 레전드</h5>
+                            </a>
+                        </article>
+                        <article class="all pc pc4 long">
+                            <a
+                                href="https://www.inven.co.kr/webzine/news/?news=278861&hotnews=1&page=5"
+                                target="_blank"
+                            >
+                                <h5>퍼스트 디센던트</h5>
+                            </a>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="article_box mobile">
+                    <h2 class="mobile">
+                        <button class="mobile">모바일</button>
+                    </h2>
+                    <div class="articles mobile_list mobile">
+                        <article class="all mobile mobile1 long">
+                            <a
+                                href="https://www.inven.co.kr/webzine/news/?news=278862&sw=%EC%8A%A4%ED%83%80%EB%A0%88%EC%9D%BC&site=webzine"
+                                target="_blank"
+                                ><h5>붕괴: 스타레일</h5></a
+                            >
+                        </article>
+                        <article class="all mobile mobile2">
+                            <a
+                                href="https://bbs.ruliweb.com/news/read/175092"
+                                target="_blank"
+                                ><h5>블루 아카이브</h5>
+                            </a>
+                        </article>
+                        <article class="all mobile mobile3 long">
+                            <a
+                                href="https://www.inven.co.kr/webzine/news/?news=279122&hotnews=1"
+                                target="_blank"
+                                ><h5>뉴럴 클라우드</h5>
+                            </a>
+                        </article>
+                        <article class="all mobile mobile4">
+                            <a
+                                href="https://www.thisisgame.com/webzine/game/nboard/225/?n=162703"
+                                target="_blank"
+                            >
+                                <h5>마스터 오브 나이츠</h5>
+                            </a>
+                        </article>
+                    </div>
+                </div>
+                <div class="article_box special">
+                    <h2 class="special">
+                        <button class="special">특집 / 칼럼</button>
+                    </h2>
+                    <div class="articles special_list special">
+                        <article class="all special special1">
+                            <a
+                                href="https://bbs.ruliweb.com/news/529/read/174603"
+                                target="_blank"
+                                ><h5>2022 게임대상</h5></a
+                            >
+                        </article>
+                        <article class="all special special2 long">
+                            <a
+                                href="https://bbs.ruliweb.com/news/board/11/read/2086?"
+                                target="_blank"
+                                ><h5>지스타 2022</h5>
+                            </a>
+                        </article>
+                        <article class="all special special3 long">
+                            <a
+                                href="https://www.inven.co.kr/webzine/news/?news=278913"
+                                target="_blank"
+                                ><h5>지스타 2022 : 호요버스</h5>
+                            </a>
+                        </article>
+                        <article class="all special special4">
+                            <a
+                                href="https://www.gamemeca.com/view.php?gid=1688714"
+                                target="_blank"
+                            >
+                                <h5>지스타 2022 : 카카오게임즈</h5>
+                            </a>
+                        </article>
+                        <article class="all special special5">
+                            <a
+                                href="https://www.inven.co.kr/webzine/news/?news=278980"
+                                target="_blank"
+                            >
+                                <h5>지스타 2022 : 후기</h5>
+                            </a>
+                        </article>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu">
+                <button class="close"><i class="fa-solid fa-xmark"></i></button>
+                <ul>
+                    <li><a href="main.html">오늘의 뉴스</a></li>
+                    <li><a href="newgames.html">이 달의 신작</a></li>
+                    <li>
+                        <a href="news_list.html">News</a>
+                        <ul>
+                            <li><a href="#">비디오</a></li>
+                            <li><a href="#">PC / 온라인</a></li>
+                            <li><a href="#">모바일</a></li>
+                            <li><a href="#">특집 / 칼럼</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div>
+                    <form action="" class="search">
+                        <input
+                            type="text"
+                            placeholder="검색어를 입력해 주세요."
+                        />
+                        <button>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

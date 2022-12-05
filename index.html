@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>민트 게임 뉴스</title>
+        <link rel="icon" href="icon/maskable_icon_x128.png">
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/main.css" />
+
+        <script src="js/main.js"></script>
+
+        <link rel="manifest" href="manifest.json">
+        <script>
+            if ("serviceWorker" in navigator) {
+                //서비스워커 지원 여부 확인
+                navigator.serviceWorker
+                    .register("service-worker.js") //등록
+                    .then(function (success) {
+                        console.log("serviceworker 설치 성공", success);
+                    })
+                    .catch(function (error) {
+                        console.log("serviceworker 설치 실패", error);
+                    });
+            }
+        </script>
+    </head>
+    <body>
+        <div id="inner">
+            <div class="title">
+                <h1 class="mint">민트 게임 뉴스</h1>
+            </div>
+            <div class="middle_line">
+                <a class="click" href="main.html"
+                    ><img src="media/home_logo.png" alt="home_logo" /> Click</a
+                >
+            </div>
+            <a href="">
+                <div class="home_news">
+                    <div class="text_box">
+                        <h2 class="black">G-STAR 2022 개최</h2>
+                        <p>
+                            3년 만의 완전 대면으로 정상화된 한국 최대 규모의
+                            국제게임전시회 ‘지스타 2022’가 안전과 흥행 ‘두 마리
+                            토끼’를 다 잡았다. 나흘 동안 18만 4000여 명이
+                            행사장인 부산 해운대구 벡스코를 찾았고 안전사고는
+                            없었다.
+                        </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </body>
+</html>

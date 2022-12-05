@@ -1,0 +1,61 @@
+{
+    "name": "민트 게임 뉴스",
+    "short_name": "민트 게임 뉴스",
+    "background_color": "#ffffff",
+    "theme_color": "#4dede3",
+    "description": "pwa 포트폴리오",
+    "dir": "auto",
+    "display": "standalone",
+    "orientation": "any",
+    "scope": "https://sdh93.github.io/mobile_PF/",
+    "start_url": "https://sdh93.github.io/mobile_PF/",
+    "lang": "ko",
+    "gcm_sender_id": "",
+    "gcm_user_visible_only": true,
+
+    "categories": [],
+    "screenshots": [
+        {
+            "src": "screenshot/screenshot1.png",
+            "sizes": "390x844",
+            "type": "image/png"
+        },
+        {
+            "src": "screenshot/screenshot2.png",
+            "sizes": "390x844",
+            "type": "image/png"
+        },
+        {
+            "src": "screenshot/screenshot3.png",
+            "sizes": "390x844",
+            "type": "image/png"
+        }
+    ],
+    "icons": [
+        {
+            "src": "icon/maskable_icon_x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "icon/maskable_icon_x128.png",
+            "sizes": "128x128",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icon/maskable_icon_x96.png",
+            "sizes": "96x96",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icon/maskable_icon_x72.png",
+            "sizes": "72x72",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ],
+    "shortcuts": []
+}

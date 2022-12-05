@@ -1,12 +1,13 @@
 module.exports = {
     staticFileGlobs: [
-      'app/css/**.css',
-      'app/**.html',
-      'app/media/**.*',
-      'app/js/**.js',
-      'app/fonts/**.*'
+      "/",
+      'css/**.css',
+      '**.html',
+      'media/**.*',
+      'js/**.js',
+      'fonts/**.*'
     ],
-    stripPrefix: 'app/',
+    stripPrefix: '/',
     runtimeCaching: [{
       urlPattern: /this\\.is\\.a\\.regex/,
       handler: 'networkFirst'

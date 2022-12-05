@@ -13,7 +13,9 @@
     "gcm_sender_id": "",
     "gcm_user_visible_only": true,
 
-    "categories": [],
+    "categories": [
+        "news"
+      ],
     "screenshots": [
         {
             "src": "screenshot/screenshot1.png",
